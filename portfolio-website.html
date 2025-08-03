@@ -2,67 +2,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compactible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website Using HTML & CSS | Emmanuel</title>
+    <meta name="description" content="Portfolio of Dayo Emmanuel Jimoh - FullStack Web Developer & DevOps Engineer">
+    <title>Dayo Emmanuel Jimoh | FullStack Developer & DevOps Engineer</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<nav class="navbar">
-    <a href="#" class="logo">Portfolio</a>
-    <ul>
-        <li class="active"><a href="#">Home</a> </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-<div class="bars-animation">
-    <div class="bar" style="--1:6;"></div>
-    <div class="bar" style="--1:5;"></div>
-    <div class="bar" style="--1:4;"></div>
-    <div class="bar" style="--1:3;"></div>
-    <div class="bar" style="--1:2;"></div>
-    <div class="bar" style="--1:1;"></div>
+    <nav class="navbar">
+        <a href="#home" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
     </div>
-<section class="Home">
-    <div class="Home-info">
-        <h1 style="margin-bottom: 5px;"> Dayo Emmanuel Jimoh </h1>
-        <h2> FullStack Web developer | DevOps Engineer </h2>
-        <p>💼 About Me </p>
-        <p>Hi, I'm Dayo Emmanuel Jimoh — a versatile FullStack Web Developer passionate about building seamless, scalable, and user-focused digital solutions.
-With a strong command of modern web technologies (React, JavaScript, HTML/CSS) and robust backend frameworks (Node.js, Express, Python, PHP, SQL), I bridge the gap between elegant user experiences and powerful server-side logic.
-From clean UI/UX design to efficient database architecture, I specialize in delivering end-to-end solutions for web apps, APIs, and dynamic business tools that solve real-world problems.
-I thrive on solving complex challenges, optimizing performance, and collaborating with clients and teams to bring ideas to life — pixel by pixel, logic by logic.
-</p>
-    <div class="btn-sci">
-        <a href="#" class="btn">Download CV</a>
-        <div class="sci">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class="bx bxl-youtube" ></i></a>
-            <a href="#"><i class="bx bxl-twitter" ></i></a>
-            <a href="#"><i class="bx bxl-facebook" ></i></i></a>
-            <a href="#"><i class="bx bxl-instagram" ></i></i></a>
-            </div>
-            </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Dayo Emmanuel Jimoh</h1>
+            <h3>FullStack Web Developer | DevOps Engineer</h3>
+            
+            <div class="about-me">
+                <p><h4>💼 About Me</h4></p>
+                <p><h5>Hi, I'm Dayo Emmanuel Jimoh — a versatile FullStack Web Developer passionate about building seamless, scalable, and user-focused digital solutions.</h5></p>
+                
+                <p><h5>With a strong command of modern web technologies (React, JavaScript, HTML/CSS) and robust backend frameworks (Node.js, Express, Python, PHP, SQL), I bridge the gap between elegant user experiences and powerful server-side logic.</h5></p>
+                
+                <p><h5>From clean UI/UX design to efficient database architecture, I specialize in delivering end-to-end solutions for web apps, APIs, and dynamic business tools that solve real-world problems.</h5></p>
             </div>
 
-            <div class="Home-img">
-                <div class="img-box">
-                    <div class="img-item">
-                        <img src="pic.png" alt="pic">
+            <div class="btn-sci">
+                <a href="DAYO EMMANUEL JIMOH Curriculum Vitae.pdf" class="btn" download>Download CV<Dayo-Emmanuel-Jimoh-CV class="pdf"></Dayo-Emmanuel-Jimoh-CV></a>
+                <div class="sci">
+                    <a href="https://github.com/Dayoemmanuel23" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/dayo-emmanuel-jimoh-023aa811a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.youtube.com/feed/you" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://x.com/jimoh70354" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://web.facebook.com/emmanueljimoh" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/dayoemmanueljimoh/" target="_blank"><i class='bx bxl-instagram'></i></a>
                 </div>
             </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="pic.png" alt="Dayo Emmanuel Jimoh professional portrait">
+                </div>
             </div>
-            </section>
+        </div>
+    </section>
 
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="skills-container">
+            <div class="skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                    <span>HTML/CSS</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>React</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 88%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Python</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>DevOps</span>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+            </div>
+            <div class="education">
+                <h3>Education & Certifications</h3>
+                <div class="education-item">
+                    <h4>B.Sc Computer Science</h4>
+                    <p>Yaba College of Technology, Lagos 2015-2019</p>
+                </div>
+                <div class="education-item">
+                    <h4>AWS Cloud Technical Essentials</h4>
+                    <p>Amazon Web Services, 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="portfolio" id="portfolio">
+    <h2 class="section-title">My Portfolio</h2>
+    <div class="projects">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="sunrose.png" alt="Sunrose Logistics Website with Tracking System">
+            </div>
+            <div class="project-info">
+                <h3>Sunrose Logistics Tracking System</h3>
+                <p>Full-featured logistics platform with real-time cargo tracking functionality</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+                <a href="https://sunroselogistics.com/" target="_blank" class="project-link">Visit Live Site</a>
+            </div>
+        </div>
+        
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="task.png" alt="Task Management App">
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>Productivity application with real-time updates</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="cicd.png" alt="DevOps Automation">
+                </div>
+                <div class="project-info">
+                    <h3>CI/CD Pipeline</h3>
+                    <p>Automated deployment pipeline for web applications</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="services" id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Custom web applications tailored to your business needs</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Responsive Design</h3>
+                <p>Websites that work perfectly on all devices</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-server'></i>
+                <h3>DevOps Solutions</h3>
+                <p>CI/CD pipelines and cloud infrastructure setup</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-data'></i>
+                <h3>Database Design</h3>
+                <p>Optimized database architecture for performance</p>
+            </div>
+        </div>
+    </section>
 
-</body>
+    <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+        <form class="contact-form" action="https://formspree.io/f/mzzvavqz" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" aria-label="Subject">
+                <i class='bx bx-edit'></i>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                <i class='bx bx-message'></i>
+            </div>
+            <button type="submit" class="btn">
+                <i class='bx bx-paper-plane'></i> Send Message
+            </button>
+        </form>
+        <div class="contact-info">
+            <h3>Direct Contact</h3>
+            <div class="info-item">
+                <i class='bx bx-envelope'></i>
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:emmanueljimoh@gmail.com">emmanueljimoh@gmail.com</a>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-phone'></i>
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:+2348064126498">+234 806 412 6498</a>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-map'></i>
+                <div>
+                    <span>Location</span>
+                    <p>Lagos, Nigeria</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Dayoemmanuel23" target="_blank" aria-label="GitHub">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dayo-emmanuel-jimoh-023aa811a/" target="_blank" aria-label="LinkedIn">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://x.com/jimoh70354" target="_blank" aria-label="Twitter">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Dayo Emmanuel Jimoh. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</footer>
